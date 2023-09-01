@@ -1,0 +1,19 @@
+{
+  "name": "bigslopper",
+  "version": "1.0.0",
+  "description": "Slop Crew Discord bot",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlopCrew/bigslopper.git"
+  },
+  "author": "NotNite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SlopCrew/bigslopper/issues"
+  },
+  "homepage": "https://github.com/SlopCrew/bigslopper#readme",
+  "dependencies": {
+    "@projectdysnomia/dysnomia": "^0.1.3"
+  }
+}
