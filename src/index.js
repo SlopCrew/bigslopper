@@ -93,7 +93,7 @@ bot.on("interactionCreate", async (interaction) => {
         const query = interaction.data.options[0].value;
 
         const results = faq
-          .filter((e) => e.header.includes(query))
+          .filter((e) => e.header.toLowerCase().includes(query.toLowerCase()))
           .map((e) => {
             return { name: e.header, value: e.header };
           });
